@@ -2,9 +2,9 @@
 
 clear
 
-docker build --file Dockerfile --tag statefarm-api .
+docker build --file Dockerfile --tag fast-api .
 
-docker run -p 8000:8000 statefarm-api
+docker run -p 8000:8000 fast-api
 
 
 
